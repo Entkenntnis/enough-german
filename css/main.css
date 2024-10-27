@@ -1,243 +1,204 @@
-html{
-  color:#000;
-  background:#000;
-  font-family:"GeoSans";
-  background-repeat:no-repeat;
-
+html {
+  color: #000;
+  background: #000;
+  font-family: 'GeoSans';
+  background-repeat: no-repeat;
 }
 
-body{
-  color:#000;
-  background:#000;
+body {
+  color: #000;
+  background: #000;
   margin: 0px;
   overflow: hidden;
 }
 
-#container{ 
-  position:absolute; 
-  left:0px; 
-  top:0px; 
-  z-index:0; 
-  width:100%; 
-  height:100%; 
-  display:block; 
-  overflow:hidden; 
+#container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
 }
 
 @font-face {
-  font-family: "GeoSans";
-  src: url("../assests/GeosansLight.ttf");
+  font-family: 'GeoSans';
+  src: url('../assests/GeosansLight.ttf');
 }
-a{
-
+a {
   color: #fff;
   text-decoration: none;
   underline: none;
-
 }
 
-a:hover{
-
+a:hover {
   text-decoration: underline;
-
 }
 
-.scroll{
-  overflow:auto;
+.scroll {
+  overflow: auto;
 }
 
-.fullHeight{
-  height:100%;
+.fullHeight {
+  height: 100%;
 }
 
-.absolute{
-  position:absolute;
-}
-#curtain{
-
-  position      : absolute;
-  z-index       : 999;
-  top           : 0px;
-  left          : 0px;
-  width         : 100%;
-  height        : 100%;
-  background    : #000;
-
-}
-
-#failureDialog{
-
-  z-index: 999;
-  width:100%;
-  height:100%;
-  overflow:auto;
+.absolute {
   position: absolute;
-  left:0px;
+}
+#curtain {
+  position: absolute;
+  z-index: 999;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
   background: #000;
-  color:#fff;
-
- text-align:center;
-
 }
 
+#failureDialog {
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: absolute;
+  left: 0px;
+  background: #000;
+  color: #fff;
 
-#failureList{
-
-  padding:0px;
-  margin:0px;
   text-align: center;
-  list-style:none;
-
-  display:block-inline;
-}
-#failureImg{
-
-  width:10%;
-
 }
 
-#loadBarInfo{
-  position      : absolute;
-  top:50%;
-  left:50%;
+#failureList {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  list-style: none;
+
+  display: block-inline;
+}
+#failureImg {
+  width: 10%;
+}
+
+#loadBarInfo {
+  position: absolute;
+  top: 35%;
+  left: 50%;
   z-index: 999;
   font-size: 1em;
   width: 45%;
-  color:#fff;
+  color: #fff;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
 }
 
-#loadBarPercent{
+#loadBarPercent {
   font-size: 30px;
-  color:#fff;
+  color: #fff;
 }
 
-#loadBar{
-
-  position      : absolute;
-  top           : 50%;
-  height        : 1px;
-  width         : 0px;
-  background    : #fff;
-
+#loadBar {
+  position: absolute;
+  top: 50%;
+  height: 1px;
+  width: 0px;
+  background: #fff;
 }
 
-#loadingGif{
-
-  position      : absolute;
-  top           : 50%;
-  left          : 50%;
-  z-index       : -1;
-
+#loadingGif {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
 }
 
-#loadInfo{
+#loadInfo {
+  position: absolute;
+  top: 35%;
+  font-size: 20px;
 
-  position      : absolute;
-  top           : 50%;
-  font-size     : 20px;
-
-  height        : 50px;
-  width         : 100%;
-  margin-top    : 5px;
-  text-align    : center;
-  //background    : #fff;
-
+  height: 50px;
+  width: 100%;
+  margin-top: 5px;
+  text-align: center;
+  /*background    : #fff;*/
 }
 
-#informationSection{
+#informationSection {
+  display: none;
 
-display:none;
-
-  padding:20px;
-  position:absolute;
-  z-index:500px;
-  right:0px;
-  bottom:0px;
-  color:#fff;
+  padding: 20px;
+  position: absolute;
+  z-index: 500px;
+  right: 0px;
+  bottom: 0px;
+  color: #fff;
   background: #000;
-  opacity:.5;
-  //border: 1px solid white;
-
+  opacity: 0.5;
+  /*border: 1px solid white;*/
 }
 
-#informationSection h1{
-  font-size:20px;
+#informationSection h1 {
+  font-size: 20px;
 }
-#renderingContainer{
-
-  position    : absolute;
-  top         : 0px;
-  left        : 0px;
-  width       : 100%;
-  height      : 100%;
-  background  : #000;
-
+#renderingContainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: #000;
 }
 
-#interface{
-
-  position        : absolute;
-  top             : 0px;
-  left            : 0px;
-  width           : 100%;
-  height          : 100%;
-  z-index         : 999;
-  pointer-events  : none;
-
+#interface {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  pointer-events: none;
 }
 
-
-#info{
-
-  position:absolute;
-  top:0px;
+#info {
+  position: absolute;
+  top: 0px;
   padding-left: 20px;
-
 }
 
-#title{
-
-  pointer-events  : auto;
-
+#title {
+  pointer-events: auto;
 }
 
-#summary{
-
-  font-size:16px;
-
+#summary {
+  font-size: 16px;
 }
 
+#social {
+  pointer-events: auto;
 
-#social{
+  position: absolute;
+  right: 0px;
+  bottom: 5px;
 
-  pointer-events  : auto;
-
-  position:absolute;
-  right:0px;
-  bottom:5px;
-
-  width:100%;
-
+  width: 100%;
 }
 
-
-.social{
-
-  width:25px;
-  height:25px;
+.social {
+  width: 25px;
+  height: 25px;
   display: block;
 
-  opacity:.3;
-  padding:5px;
-  float:right;
+  opacity: 0.3;
+  padding: 5px;
+  float: right;
 }
-.social:hover{
-
-  opacity: .7;
-
+.social:hover {
+  opacity: 0.7;
 }
 
 /*#facebook{
@@ -257,107 +218,90 @@ display:none;
   opacity:1;
 }*/
 
-#titleEP{
+#titleEP {
   position: absolute;
   right: 5px;
   font-size: 23px;
   bottom: 35px;
-  opacity: .6;
+  opacity: 0.6;
   color: #fff;
 }
 
-#GUI{
-
-  position:absolute;
-  right           : 0px;
-  top             : 0px;
-  pointer-events  : auto;
-
+#GUI {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  pointer-events: auto;
 }
 
-
-
-#stats{
-
-  position:absolute;
-  left:0px;
-  bottom:-30px;
-  z-index:999;
+#stats {
+  position: absolute;
+  left: 0px;
+  bottom: -30px;
+  z-index: 999;
   display: none;
-
 }
 
-#startInfo{
-
-  width:300px;
-  height:300px;
-  color:#fff;
-  position:absolute;
-  left:50%;
-  top:50%;
-  margin-left:-150px;
-  margin-top:10px;
-  text-align:center;
-  display:none;
-
+#startInfo {
+  width: 300px;
+  height: 300px;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: 10px;
+  text-align: center;
+  display: none;
 }
 
-#startButton{
-
-  
-  color:#aaa;
-  position:absolute;
-  //top:-80px;
-  //height:80px;
-  background:#000;
-  margin-left:-0px;
-  font-size:30px;
+#startButton {
+  color: #aaa;
+  position: absolute;
+  /*top:-80px;*/
+  /*height:80px;*/
+  background: #000;
+  margin-left: -0px;
+  font-size: 30px;
   border: 1px solid #888;
   padding: 10px;
-
 }
 
-#startButton:hover{
-  color:#fff;
+#startButton:hover {
+  color: #fff;
   border: 1px solid white;
 }
 
-#englishButton{
-
-  
-  color:#aaa;
-  position:absolute;
-  //top:-80px;
-  //height:80px;
+#englishButton {
+  color: #aaa;
+  position: absolute;
+  /*top:-80px;*/
+  /*height:80px;*/
   left: 110px;
-  background:#000;
-  margin-left:-0px;
-  font-size:30px;
+  background: #000;
+  margin-left: -0px;
+  font-size: 30px;
   border: 1px solid #888;
   padding: 10px;
-
 }
-#englishButton:hover{
-  color:#fff;
+#englishButton:hover {
+  color: #fff;
   border: 1px solid white;
 }
 
-#frenchButton{
-
-  
-  color:#aaa;
-  position:absolute;
-  //top:-80px;
-  //height:80px;
+#frenchButton {
+  color: #aaa;
+  position: absolute;
+  /*top:-80px;*/
+  /*height:80px;*/
   left: 255px;
-  background:#000;
-  margin-left:-0px;
-  font-size:30px;
+  background: #000;
+  margin-left: -0px;
+  font-size: 30px;
   border: 1px solid #888;
   padding: 10px;
-
 }
-#frenchButton:hover{
-  color:#fff;
+#frenchButton:hover {
+  color: #fff;
   border: 1px solid white;
 }
