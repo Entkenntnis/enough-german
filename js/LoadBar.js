@@ -104,7 +104,7 @@ LoadBar.prototype.addText = function () {
   var p = Math.floor(this.percentLoaded.value * 100)
 
   var forward = [
-    '<p>Es ist schwer, die Freude zu beschreiben, die ich empfand, wenn ich ein Bilderbuch zur Hand nahm und es von Anfang bis Ende las. Sie ließen mich Galaxien erkunden, auf Dinosauriern reiten, Drachen besiegen. Sie ermöglichten mir, tief in mein eigenes Wesen einzutauchen, während ich mir etwas auf einem Zauberstein wünschte, einen Zug bestieg, der in den Norden fuhr, oder auf einem Flugzeug aus Teig durch den Himmel schwebte.</p>',
+    '<p>Es ist schwer, die Freude zu beschreiben, die ich empfand, als ich ein Bilderbuch zur Hand nahm und es von Anfang bis Ende las. Sie ließen mich Galaxien erkunden, auf Dinosauriern reiten, Drachen besiegen. Sie ermöglichten mir, tief in mein eigenes Wesen einzutauchen, während ich mir etwas auf einem Zauberstein wünschte, einen Zug bestieg, der in den Norden fuhr, oder auf einem Flugzeug aus Teig durch den Himmel schwebte.</p>',
     '<p>Ich weiß, dass ich die Pracht, die Erhabenheit und die Schönheit dieser wundervollen Werke nie wiedererschaffen kann, doch hoffe ich, dass dieses Projekt dich dennoch an das Staunen erinnert, das du in diesen Momenten empfandest. An jene Zeiten, in denen du alles sein, überall hingehen und Magie an den zerbrechlichsten Orten finden konntest.</p>',
     '<p>Autor : Cabbibo</p>',
   ].join('\n')
