@@ -1,7 +1,7 @@
 var TEXT = {
   ALONE: [
     'Für meine LehrerInnen\n\nDie es irgendwie geschafft haben, mit mir klarzukommen,\nBesonders die beiden, die es am schwersten hatten:\n\nMama & Papa.\n',
-    'Als Mani erwachte, hatte sie keine Ahnung, wo sie war.\n\nEin weicher Meeresboden funkelte unter ihr, eine kleine Insel in einem Meer der Dunkelheit.\n\nSie schwamm, langsam entdeckte sie die Beschaffenheit ihres Körpers.\n',
+    'Als Mani erwachte, hatte sie keine Ahnung, wo sie war.\n\nEin weicher Meeresboden funkelte unter ihr, eine kleine Insel in einem Meer der Dunkelheit.\n\nSie schwamm und entdeckte langsam sie die Beschaffenheit ihres Körpers.\n',
     'Die Leere, die die Insel umgab, war so gewaltig, dass Mani nicht einmal sicher war, ob sie sich überhaupt bewegte. Trotzdem glitt sie weiter, erfreute sich am sanften Rascheln ihres Schweifs, an der weichen Bewegung ihres Körpers.\n\nWährend Mani weiter weg vom Licht wanderte, ließ die Stille um sie herum Raum zum Nachdenken, zum Fragen: Was war sie? Wer war sie? Warum war sie? Und was war da draußen noch?\n',
     'Sie zog immer tiefer in die Dunkelheit, bis der Meeresboden nur noch ein Schimmer in der Ferne war. Für einen Moment dachte sie daran, umzukehren, aber ein weites Unbekanntes lag vor ihr und sie war voller Vorfreude, es zu entdecken.\n',
   ],
@@ -70,7 +70,7 @@ var TEXT = {
     'Es war Sol!\n\nSol schwamm zu Mani, und Mani zu ihr.\n',
     'Das Wesen, das das Herz dieser Welt war, sang von der Unendlichkeit.\n\nSol schimmerte sanft.\n\nDas Herz tanzte, jeder Atemzug verkörperte das Wesen des Kosmos.\n\nSol schwebte langsam.\n',
     'Mani blickte auf die Blume im Zentrum des Universums.\n\nSo unendlich war ihre Schönheit, so göttlich ihre Bewegung, so wahr ihre Stimme.\n\nDoch während Sol sich in Spiralen wand und eine feine Welle ihre Wirbelsäule entlanglief, begriff Mani, dass kein Sinn, kein Licht, keine Schönheit und keine Wahrheit dem Anblick von Sol jemals gleichkommen könnten.\n',
-    'Die Wahrheit des Wesens war unendlich, kompromisslos. Es versprach ein Ende aller Qual. Aber Sol versprach etwas mehr. Mani war klar, dass sie, wenn sie Sol folgte, wieder der Dunkelheit begegnen würde. Mani wusste, dass sie wieder Trauer spüren würde. Sie würde sich wieder verloren fühlen, wieder Schmerz empfinden, wieder zerbrochen sein.\n\nIhre Freundschaft konnte nicht ewig dauern, aber sie würde es jetzt tun, und diese kleine, unbedeutende Beziehung enthielt mehr Wahrheit, als dieser Gott jemals versprechen könnte.\n\nSie wandten sich vom Juwel ab und reisten weiter. Gemeinsam.\n',
+    'Die Wahrheit des Wesens war unendlich, kompromisslos. Es versprach ein Ende aller Qual. Aber Sol versprach etwas mehr. Mani war klar, dass sie, wenn sie Sol folgte, wieder der Dunkelheit begegnen würde. Mani wusste, dass sie wieder Trauer spüren würde. Sie würde sich wieder verloren fühlen, wieder Schmerz empfinden, wieder zerbrochen sein.\n\nIhre Freundschaft konnte nicht ewig dauern, aber sie würde es jetzt tun, und diese kleine, unbedeutende Verbindung enthielt mehr Wahrheit, als dieser Gott jemals versprechen könnte.\n\nSie wandten sich vom Juwel ab und reisten weiter. Gemeinsam.\n',
   ],
   FIREWORKS: [
     'Mani und Sol schwammen von dem Wesen fort. Es sang ihnen, während sie in die Nacht zurückkehrten.\n\nWie ein flackerndes Feuer in der Ferne flüsterte das Wesen ihnen Lebewohl und ließ Sol und Mani zu einem goldenen See ziehen, ihre Spiegelbilder leistete ihnen Gesellschaft, während sie tanzten, einfach zufrieden.\n',
