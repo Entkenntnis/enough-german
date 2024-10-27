@@ -99,7 +99,7 @@ credits.addToInitArray(
       textChunk: TEXT.CREDITS[4],
     })
 
-    this.sectionParams.push({
+    /*this.sectionParams.push({
       cameraPosition: new THREE.Vector3(0, 2000, 1000),
       lookPosition: new THREE.Vector3(0, 2000, 0),
 
@@ -109,15 +109,15 @@ credits.addToInitArray(
       activeUpdate: function () {
         //console.log('ss')
       }.bind(credits),
-    })
+    })*/
 
     this.sectionParams.push({
-      cameraPosition: new THREE.Vector3(0, 1000, 1200),
-      lookPosition: new THREE.Vector3(0, 500, 0),
+      cameraPosition: new THREE.Vector3(0, 0, 1300),
+      //lookPosition: new THREE.Vector3(0, 500, 0),
       textChunk: TEXT.CREDITS[5],
       //transitionTime:10000,
       transitionIn: function () {
-        this.sections[6].frame.body.remove(this.sections[6].frame.turnerMesh)
+        this.sections[5].frame.body.remove(this.sections[5].frame.turnerMesh)
       }.bind(credits),
       start: function () {
         for (var i = 0; i < this.audio.length; i++) {
