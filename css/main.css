@@ -85,7 +85,7 @@ a:hover {
 
 #loadBarInfo {
   position: absolute;
-  top: 35%;
+  top: 15%;
   left: 50%;
   z-index: 999;
   font-size: 1em;

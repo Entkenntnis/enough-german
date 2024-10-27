@@ -126,7 +126,7 @@ LoadBar.prototype.addText = function () {
 
   var offset = -this.loadBarInfo.clientHeight / 2
 
-  this.loadBarInfo.style.marginTop = offset + 'px'
+  //this.loadBarInfo.style.marginTop = offset + 'px'
   //console.log( this.loadBarInfo.clientHeight )
 
   /*this.englishButton = document.createElement('div')
