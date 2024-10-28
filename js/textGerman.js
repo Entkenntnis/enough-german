@@ -2,7 +2,7 @@ var TEXT = {
   ALONE: [
     'Für meine LehrerInnen\n\nDie es irgendwie geschafft haben, mit mir klarzukommen,\nBesonders die beiden, die es am schwersten hatten:\n\nMama & Papa.\n',
     'Als Mani erwachte, hatte sie keine Ahnung, wo sie war.\n\nEin weicher Meeresboden funkelte unter ihr, eine kleine Insel in einem Meer der Dunkelheit.\n\nSie schwamm und entdeckte langsam die Beschaffenheit ihres Körpers.\n',
-    'Die Leere, die die Insel umgab, war so gewaltig, dass Mani nicht einmal sicher war, ob sie sich überhaupt bewegte. Trotzdem glitt sie weiter, erfreute sich am sanften Rascheln ihres Schweifs, an der weichen Bewegung ihres Körpers.\n\nWährend Mani weiter weg vom Licht wanderte, ließ die Stille um sie herum Raum zum Nachdenken, zum Fragen: Was war sie? Wer war sie? Warum war sie? Und was war da draußen noch?\n',
+    'Die Leere, die die Insel umgab, war so gewaltig, dass Mani nicht einmal sicher war, ob sie sich überhaupt bewegte. Trotzdem glitt sie weiter, erfreute sich am sanften Rascheln ihres Schweifs, an der weichen Bewegung ihres Körpers.\n\nWährend Mani weiter weg vom Licht wanderte, ließ die Stille um sie herum Raum zum Nachdenken, zum Fragen: Was war sie? Wer war sie? Warum existierte sie? Und was war da draußen noch?\n',
     'Sie zog immer tiefer in die Dunkelheit, bis der Meeresboden nur noch ein Schimmer in der Ferne war. Für einen Moment dachte sie daran, umzukehren, aber ein weites Unbekanntes lag vor ihr und sie war voller Vorfreude, es zu entdecken.\n',
   ],
   CRYSTALS: [
