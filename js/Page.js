@@ -225,7 +225,7 @@ Page.prototype.start = function () {
 
 Page.prototype.activate = function () {
   // console.log( 'PAGE ACTIVATED ' + this.name );
- console.log('PAGE active' + this.name)
+  parent.postMessage(this.name, "*")
 
   this.endMesh = G.pageTurner.createMarker(this)
 
