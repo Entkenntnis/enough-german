@@ -708,7 +708,3 @@ var G = new Global()
 window.addEventListener('resize', G.onResize.bind(G), false)
 window.addEventListener('keydown', G.onKeyDown.bind(G), false)
 
-window.addEventListener('message', function () {
-  console.log('message received')
-  G.fullscreenIt()
-})
