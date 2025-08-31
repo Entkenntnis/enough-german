@@ -18,7 +18,7 @@ var TEXT = {
     'Mani beneidete die Ranken, die sie umgaben. Auch wenn sie nicht reisen und Wunder wie die melodischen Kristalle erleben konnten, hatten sie in ihrem funkelnden Heiligtum einen Sinn gefunden. Für sie war es genug zu singen, selbst wenn niemand zuhörte.\n\nMani kannte keine Lieder, also zog sie weiter, voller Sehnsucht nach mehr.\n',
   ],
   TREE: [
-    'Mani wurde müde. Sie war schon ewig unterwegs, wusste aber immer noch nicht, wo sie war, wer sie war oder warum sie war.\n\nDie Kristalle waren majestätisch, der Wald weise, doch gab es so viele Fragen, und Mani wusste nicht, ob sie jemals beantwortet weren würden.\n',
+    'Mani wurde müde. Sie war schon ewig unterwegs, wusste aber immer noch nicht, wo sie war, wer sie war oder warum sie war.\n\nDie Kristalle waren majestätisch, der Wald weise, doch gab es so viele Fragen, und Mani wusste nicht, ob sie jemals beantwortet werden würden.\n',
     'Der geisterhafte Baum vor ihr spiegelte die Erschöpfung wider, die Mani fühlte. Wie konnte sie Teil dieser Welt sein, ohne einen Grund zu kennen? Die Kristalle summten, und die Bäume sangen im Chor. Sie kannten ihre Aufgaben und erfüllten sie mit stiller Würde.\n\nMani konnte nicht erkennen, was ihr eigener Zweck war.\n',
     'Sie starrte den Baum an, flehte und hoffte, dass er ihr etwas über den Grund ihrer Existenz verraten würde.\n\nDoch er blieb unbewegt.\n',
     'Mani fühlte sich kalt.\n\nDas Licht des Baumes enthielt keine Wärme. Kein Trost war in seinen Ästen zu finden, kein Anhaltspunkt für eine Bedeutung in seiner Struktur.\n\nFalls der Baum einen Zweck hatte, konnte Mani ihn nicht erkennen.\n',
